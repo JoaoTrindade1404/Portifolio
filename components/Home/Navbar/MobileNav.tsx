@@ -26,14 +26,24 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
       >
         {NavLinks.map((link) => {
           return (
-            <Link key={link.id} href={link.url}>
+            <a
+              key={link.id}
+              href={link.url}
+              onClick={(e) => {
+                e.preventDefault();
+                const element = document.querySelector(link.url);
+                element?.scrollIntoView({ behavior: "smooth" });
+                closeNav();
+              }}
+              className="cursor-pointer"
+            >
               <p
                 className="text-white w-fit text-xl ml-12 border-b-[1.5px] 
               pb-1 border-white sm:text-[30px]"
               >
                 {link.label}
               </p>
-            </Link>
+            </a>
           );
         })}
         {/* cross icon */}
