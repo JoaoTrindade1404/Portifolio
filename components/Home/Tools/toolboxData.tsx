@@ -1,10 +1,8 @@
 import {
   SiDocker,
-  SiVercel,
   SiDbeaver,
   SiInsomnia,
   SiFigma,
-  SiGit,
   SiGithub,
 } from "react-icons/si";
 import { Server } from "lucide-react";
