@@ -9,7 +9,7 @@
 
 ## 🌐 Deploy
 
-**[Ver Portfólio ao Vivo →](https://seu-portfolio.vercel.app)**
+**[Ver Portfólio ao Vivo →][(https://seu-portfolio.vercel.app](https://portifolio-9ra4maq26-joao-vitor-trindades-projects-f4fbbea2.vercel.app/))**
 
 ---
 
