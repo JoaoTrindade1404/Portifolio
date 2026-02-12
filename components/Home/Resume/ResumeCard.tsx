@@ -5,9 +5,10 @@ type Props = {
   Icon: IconType;
   role: string;
   date?: string;
+  description?: string;
 };
 
-const ResumeCard = ({ Icon, role, date }: Props) => {
+const ResumeCard = ({ Icon, role, date, description }: Props) => {
   return (
     <div className="mb-6">
       <div
@@ -32,11 +33,11 @@ const ResumeCard = ({ Icon, role, date }: Props) => {
           <h1 className="text-gray-200 text-xl sm:text-2xl font-semibold">
             {role}
           </h1>
-          <p className="text-gray-300 text-sm sm:text-base pt-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s.
-          </p>
+          {description && (
+            <p className="text-gray-300 text-sm sm:text-base pt-3">
+              {description}
+            </p>
+          )}
         </div>
       </div>
     </div>
