@@ -1,6 +1,6 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
-import { FaBriefcase, FaMobileAlt } from "react-icons/fa";
+import { FaBriefcase, FaLaptopCode, FaMobileAlt } from "react-icons/fa";
 import { IoSchoolSharp } from "react-icons/io5";
 import { BiBadge } from "react-icons/bi";
 
@@ -18,13 +18,12 @@ const Resume = () => {
             <ResumeCard
               Icon={FaBriefcase}
               role="Desenvolvedor Full Stack - Unect Jr"
-              date="Mar 2024 - Presente"
+              date="Mar 2025 - Presente"
               description="Atuação em ambiente empresarial real com clientes reais, desenvolvendo sistemas web completos. Experiência prática com metodologia ágil Scrum (Dailys, Sprints), code reviews colaborativos, e trabalho em equipe multidisciplinar com designers e gestores de projeto."
             />
             <ResumeCard
-              Icon={FaMobileAlt}
+              Icon={FaLaptopCode}
               role="Principais Atividades - Unect Jr"
-              date="2024"
               description="Desenvolvimento full stack com React + TypeScript + Tailwind no front-end e NestJS no back-end. Construção de APIs RESTful escaláveis com arquitetura modular, interfaces responsivas e tipagem estrita. Experiência adicional com React Native em projetos mobile."
             />
           </div>
@@ -38,7 +37,7 @@ const Resume = () => {
             <ResumeCard
               Icon={IoSchoolSharp}
               role="Engenharia de Software - UTFPR"
-              date="Fev 2023 - Dez 2027"
+              date="Fev 2024 - Dez 2028"
               description="Bacharelado em Engenharia de Software pela Universidade Tecnológica Federal do Paraná (UTFPR), Campus Cornélio Procópio. Formação focada em desenvolvimento de software, arquitetura de sistemas e metodologias ágeis."
             />
             <ResumeCard
